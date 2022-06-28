@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima App</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/pages/help.css">
+    <script defer src="js/common.js"></script>
+    <script defer src="js/pages/help.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>
+            <img src="img/favicon.png" alt="logo-app">
+            <span>Clima App</span>
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Clima</a></li>
+                <li><a href="add-city.html">Agregar Ciudad</a></li>
+                <li class="current-page"><a href="#">Ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="info">
+            <h2>Ayuda Clima App v.1.0</h2>
+            <p>Esta App te permite consultar el clima de una ciudad en particular utilizando la API de <a
+                    href="https://openweathermap.org/api" target="_blank">OpenWeatherMap</a>.</p>
+            <p>Para poder consultar el clima, primero deberá <a href="add-city.html">Agregar una ciudad</a> y luego
+                seleccionar la Ciudad en cuestión desde la página <a href="index.html">Clima</a>.</p>
+        </section>
+        <section class="formulary">
+            <form action="" method="post" target="_self">
+                <label for="name">Nombre:</label>
+                <input type="text" name="name" id="name">
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+                <br>
+                <label for="message">Mensaje:</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <br>
+                <div class="buttons">
+                    <button type="reset">Limpiar</button>
+                    <button type="button" onclick="validateEmail()">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <div class="wrong-mail" id="wrong-mail">
+    </div>
+    <footer>
+        <p>
+            Desarrollado con ♥ - LC2
+        </p>
+    </footer>
+</body>
+
+</html>

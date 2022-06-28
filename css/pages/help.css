@@ -1,0 +1,54 @@
+section.info {
+    display: flex;
+    flex-direction: column;
+}
+
+section.info p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.formulary form {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.formulary form input {
+    border-radius: 5px;
+    height: 35px;
+    border: solid black 1px;
+}
+
+.formulary form textarea {
+    border-radius: 5px;
+    border: solid black 1px;
+}
+
+.buttons {
+    display: flex;
+    position: relative;
+    left: 22%;
+}
+
+.buttons button {
+    margin: 2px;
+    background-color: #00594c;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid #00594c 1px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.buttons button:hover {
+    cursor: pointer;
+}
+
+div.wrong-mail {
+    display: flex;
+    text-align: center;
+    color: white;
+    justify-content: center;
+}

@@ -1,0 +1,37 @@
+#form-city-list select {
+    padding: 5px;
+    border-radius: 5px;
+    width: auto;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#form-city-list button{
+    background-color: #00594c;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+    border: solid #00594c 1px;
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#form-city-list button:hover {
+    cursor: pointer;
+}
+
+#section-weather-result .card {
+    margin: 35px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 1px 1px 10px;
+    height: 315px;
+}
+
+#section-weather-result .card p {
+    padding-left: 5px;
+    padding-right: 5px;
+}

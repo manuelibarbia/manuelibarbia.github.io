@@ -1,0 +1,41 @@
+section form.add-city {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+#city-to-add {
+    border-radius: 5px;
+    height: 40px;
+    width: 230px;
+    margin: 5px;
+}
+
+section form.add-city label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+section form.add-city button {
+    background-color: #00594c;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid #00594c 1px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+section form.add-city button:hover {
+    cursor: pointer;
+}
+
+div.messages{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
